@@ -44,8 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Display error message to user
             alert("Invalid Password");
-            //errorMessage.textContent = `Error: ${errorMessageText}`;
-            //errorMessage.classList.remove('hidden');
+            errorMessage.textContent = `Error: ${errorMessageText}`;
+            errorMessage.classList.remove('hidden');
         }
     });
 
