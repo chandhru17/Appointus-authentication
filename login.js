@@ -43,8 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error during login:', errorCode, errorMessageText);
 
             // Display error message to user
-            errorMessage.textContent = `Error: ${errorMessageText}`;
-            errorMessage.classList.remove('hidden');
+            alert("Invalid Password");
+            //errorMessage.textContent = `Error: ${errorMessageText}`;
+            //errorMessage.classList.remove('hidden');
         }
     });
 
